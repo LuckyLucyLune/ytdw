@@ -2,7 +2,7 @@ import argparse
 from pytube import YouTube
 from moviepy.video.io.VideoFileClip import VideoFileClip
 
-print """ 
+print (""" 
 
 $$\     $$\ $$$$$$$$\ $$$$$$$\  $$\      $$\ 
 \$$\   $$  |\__$$  __|$$  __$$\ $$ | $\  $$ |
@@ -16,7 +16,7 @@ $$\     $$\ $$$$$$$$\ $$$$$$$\  $$\      $$\
                                              
                                              
 
-"""
+""")
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Download and cut a YouTube video to a specific time range.')
